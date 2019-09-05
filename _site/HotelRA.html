@@ -2,20 +2,29 @@
 <html>
 <head>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></link>
-	<style>
-		:root {
+  <style>
+    :root {
   /* Set fade in duration */
   --fade-time: 0.5s;
 }
 
 body {
-  margin: 0px;
+  margin: 5px;
   padding: 0;
   font-size: 14px;
   font-family: "Helvetica Neue", Helvetica,Arial,sans-serif;
   font-weight: 360;
   line-height: 130%;
   
+}
+
+#stars{
+  font-weight: bold;
+  font-size: large;
+}
+
+.checked{
+  color:orange;
 }
 
 .container {
@@ -64,7 +73,16 @@ body {
 
 
 <body>
-  <div class="activities" style="margin: auto; padding: 0px;">                                                <!--insertar titulo-->
+  <div class="activities" style="margin: auto; padding: 0px;"> 
+
+       
+        <span id="stars">Hotel Le Meridien Ra</span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>   
+        <span><sup></sup></span>      <!-- si el hotel es gran lujo, ..., escribir entre <sub></sub>-->                                         <!--insertar titulo-->
     <p> This beachfront hotel is a luxury resort set in Sant Salvador Beach on the Costa Daurada, just 35 minutes away from Barcelona aiport. The spacious rooms are stylishly decorated and have high ceilings, flat-screen TV’s and bathrobes. Most rooms feature side or front sea views.<p>
 
     <p>The resort has 2 restaurants, serving a range of Catalan dishes and buffet cuisine. There are also pool-side, lounge and terrace bars..</p>  
@@ -97,7 +115,7 @@ body {
 <div class ="one" style="float: left;
     padding: 10px; background-color: rgba(238, 238, 238, 0.6)">
 <p><i class="fa fa-map-o" style="font-size:20px;color:orange;"></i>   <!--insertar la info relevante a los iconos-->
-<span style="margin: 0 20px; font-size:14px"><b> Location:</b> 30 min from Barcelona Airport</p></span>
+<span style="margin: 0 20px; font-size:14px"><b> Location:</b> 30 km from Barcelona Airport</p></span>
 <p><i class="fa fa-h-square" style="font-size:20px;color:orange;"></i> 
 <span style="margin: 0 22px; font-size:14px"><b> Category:</b> 5 stars</p></span>
 <p><i class="fa fa-cutlery" style="font-size:20px;color:orange;"></i> 

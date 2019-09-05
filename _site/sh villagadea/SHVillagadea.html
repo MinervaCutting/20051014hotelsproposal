@@ -2,20 +2,29 @@
 <html>
 <head>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></link>
-	<style>
-		:root {
+  <style>
+    :root {
   /* Set fade in duration */
   --fade-time: 0.5s;
 }
 
 body {
-  margin: 0px;
+  margin: 5px;
   padding: 0;
   font-size: 14px;
   font-family: "Helvetica Neue", Helvetica,Arial,sans-serif;
   font-weight: 360;
   line-height: 130%;
   
+}
+
+#stars{
+  font-weight: bold;
+  font-size: large;
+}
+
+.checked{
+  color:orange;
 }
 
 .container {
@@ -64,8 +73,16 @@ body {
 
 
 <body>
-  <div class="activities" style="margin: auto; padding: 0px;">   
-    <h3>SH Villa Gadea</h3>                                              <!--insertar titulo-->
+  <div class="activities" style="margin: auto; padding: 0px;"> 
+
+       
+        <span id="stars">Hotel SH Villa Gadea</span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>       
+        <span><sup></sup></span>      <!-- si el hotel es gran lujo, ..., escribir entre <sub></sub>-->                                      <!--insertar titulo-->
     <p> Located just outside Altea, this stylish hotel offers sea views and lagoon-style pools. It features 4 restaurants, a fitness centre and an extensive spa with an ice cave and hot tubs. Free Wi-Fi is available.<p>
 
     <p>Rooms at SH Villa Gadea come with a flat-screen satellite TV, hydromassage bath and pillow menu. Fully heated and air conditioned, most also have a separate shower in the bathroom.<p>
