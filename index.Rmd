@@ -1,0 +1,520 @@
+---
+title: "Demant Top Management Submit 2020"
+author: "Jette Toft Borner"
+date: 'From 10th to 14th May, 2020'
+output:
+ 
+  html_document:
+    css: FORMATO.css
+    toc: yes
+    toc_float: yes
+    toc_depth: 6
+---
+
+<script> 
+    $(document).ready(function() { 
+    $head = $('#header'); 
+    $head.prepend('<A href = https://www.cuttingedge-events.com><img src ="LOGO.png" width="150" vspace="50" align="right"></A>') 
+    }); 
+</script> 
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, message=FALSE, warning=FALSE)
+```
+
+
+```{r libraries}
+library(readxl)
+library(shiny)
+library(dplyr)
+library(knitr)
+library(timevis)
+
+```
+
+<br>
+
+# SUGGESTED DESTINATIONS
+
+## **MALAGA-COSTA DEL SOL**
+
+<br>
+
+For Demant Top Management Summit we would suggest **four hotel options**: Kempinski (75km from the Airport), H10 Andalucia Plaza (60km from the Airport), Westin La Quinta (65km from the Airport) and Los Monteros (47km from the Airport)
+
+As you can see on the map there are a lot of restaurant and venue options suitable for the group in this area.
+
+<br>
+
+###  Suggested Hotels {.tabset .tabset-fade .tabset-pills}
+
+#### WESTIN LA QUINTA 
+
+<iframe src="WESTIN LA QUINTA/Westin La Quinta.html"  frameborder="0" width="100%" height="1200" scrolling="no"></iframe>
+
+<br>
+
+**RATES**
+
+    Accommodation from 10th to 14th May, 2020
+    > Double for single use: 200€ VAT inc
+  
+    Meeting rooms (rates per room and day) - No AV included
+    > Plenary room - 1700€ VAT inc 
+    > Small breakout rooms (25 pax) - 460€ VAT inc
+    > Medium breakout rooms (50 pax) -  850€ VAT inc
+  
+    F&B services
+    > Buffet dinner including drinks from 80€ VAT inc
+    > Buffet lunch non alcoholic drinks included, from 50€
+    > Coffee break from 12€ VAT inc
+
+
+ **DEMANT GROUP ACCOMMODATION**
+ 
+ The 100 rooms will be similar but with different views.
+ 
+ <img src = "WESTIN LA QUINTA/quinta8.jpg" width="100%">
+
+<br>
+
+**MEETING FACILITIES**
+
+* **Plenary room**   Capacity in cabaret style for 108pax. Features natural sunlight.
+
+<img src = "WESTIN LA QUINTA/reunionlaquinta1.png" width="100%">
+
+<br>
+
+* **Breakout room**  They have different sized breakout rooms some with daylight
+
+<img src = "WESTIN LA QUINTA/reunionlaquinta.jpg" width="100%">
+
+<br>
+
+**WELCOME DINNER**
+
+The hotel has different restaurants and spaces where we can organize a very nice welcome dinner but we would suggest the Sunset Terrace:
+
+<img src = "WESTIN LA QUINTA/cenalaquinta.jpg" width="100%">
+
+<br>
+
+
+  
+
+
+#### LOS MONTEROS HOTEL & SPA
+
+<iframe src="LOS MONTEROS/LosMonteros.html"  frameborder="0" width="100%" height="1200" scrolling="no"></iframe>
+
+<br>
+
+**RATES**
+
+    Accommodation from 10th to 14th May, 2020
+    > Double for single use: 175€ VAT inc
+  
+    Meeting rooms (rates per room and day) - No AV included
+    > Plenary room - 1000€ VAT inc 
+    > breakout rooms (25- 40 pax) -  450€ VAT inc
+  
+    F&B services
+    > Buffet dinner including drinks from 70€ VAT inc
+    > Buffet lunch non alcoholic drinks included, from 45€
+    > Coffee break from 12€ VAT inc
+    
+    
+    
+ **DEMANT GROUP ACCOMMODATION**
+
+The hotel has 173 rooms in total, our group would have 100 similar rooms.
+
+<img src = "LOS MONTEROS/monteros7.jpg" width="100%">
+
+<img src = "LOS MONTEROS/monteros8.jpg" width="100%">
+
+<br>
+
+ **MEETING FACILITIES**
+
+* **Plenary room** *Salon Real*  Capacity in cabaret style for 150pax. Features natural sunlight.
+
+<img src = "LOS MONTEROS/Foto-1.-Sal¦n-Real-de-Frente.jpg" width="100%">
+
+<br>
+
+
+* **Breakout room**  They have different sized breakout rooms some with daylight
+
+<img src = "LOS MONTEROS/patio.png" width="100%">
+
+<br>
+
+**WELCOME DINNER**
+ 
+Flamingo restaurant is where the breakfast and buffet lunch will be served.
+
+<img src ="LOS MONTEROS/Terraza Flamingo.JPG" width="100%">
+
+<br>
+
+For the welcome dinner we suggest the most special place: La cabane
+
+<img src ="LOS MONTEROS/monteros1.jpg" width="100%">
+
+<br>
+
+<iframe width="100%" height="500" src="https://www.youtube.com/embed/dRFCet_tPkw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<br>
+
+
+
+#### KEMPINSKI
+
+<iframe src="KEMPINSKI/Kempinski.html"  frameborder="0" width="100%" height="1200" scrolling="no"></iframe>
+
+<br>
+
+**RATES**
+
+    Accommodation from 10th to 14th May, 2020
+    > Double for single use: 275€ VAT inc
+  
+    Meeting rooms 
+    > Delegate package - rates per person (including plenary room rental, 2 coffee breaks, Basic AV, business lunch non alcoholic drinks included and free access to the fitness club): 108€ VAT inc
+    > Breakout rooms (25 to 40 pax) -  425€ VAT inc
+  
+    F&B services
+    > Buffet dinner including drinks from 120€ VAT inc
+    
+
+ **DEMANT GROUP ACCOMMODATION**
+
+The hotel has 128 rooms with 40-45m2 each plus 17 suites.
+
+Our would have 100 rooms, all of them with similar size but not all with the same views or decoration.
+
+<img src = "https://r-cf.bstatic.com/images/hotel/max1024x768/720/72044667.jpg" width="100%">
+
+<br>
+
+<img src = "https://q-cf.bstatic.com/images/hotel/max1024x768/720/72045630.jpg" width="100%">
+
+<br>
+
+
+ **MEETING FACILITIES**
+
+Meeting room floor plan:
+
+<br>
+
+<img src = "KEMPINSKI/kempinski1.png" width="100%">
+
+Following the request, we propose the following meeting rooms for Demant meetings:
+
+* **Plenary room** *Poniente I&II*  Capacity in cabaret style for 150pax. Features natural sunlight.
+
+<img src = "KEMPINSKI/kempinski2.png" width="100%">
+
+<br>
+
+* **Breakout room** They have different sized breakout rooms some with daylight
+
+
+<img src = "KEMPINSKI/kempinski3.png" width="100%">
+
+<br>
+
+
+<br>
+
+**WELCOME DINNER**
+
+Kempinski Hotel has different options for the welcome dinner
+
+<img src ="https://r-cf.bstatic.com/images/hotel/max1024x768/145/145474783.jpg" width="100%">
+
+<br>
+
+<img src ="https://r-cf.bstatic.com/images/hotel/max1024x768/194/194328670.jpg" width="100%">
+
+<br>
+
+<img src ="https://r-cf.bstatic.com/images/hotel/max1024x768/144/144327278.jpg" width="100%">
+
+
+<br>
+<hr>
+
+#### H10 ANDALUCIA PLAZA
+
+<iframe src="H10 ANDALUCIA PLAZA/H10AndaluciaPalza.html"  frameborder="0" width="100%" height="1300" scrolling="no"></iframe>
+
+<br>
+
+**RATES**
+
+    Accommodation from 10th to 14th May, 2020
+    > Double for single use: 125€ VAT inc
+  
+    Meeting rooms (rates per room and day) - No AV included
+    > Plenary room - 1000€ VAT inc 
+    > breakout rooms (25- 40 pax) -  from 400 to 800€ VAT inc
+  
+    F&B services
+    > BBQ Buffet dinner including drinks from 60€ VAT inc
+    
+
+ **DEMANT GROUP ACCOMMODATION**
+
+The hotel has 400 rooms in total.
+
+Audika would have 100 rooms with the same level.
+
+<img src = "https://cmspro.h10hotels.com/ImagenesHotel/standard%20(3).jpg" width="100%">
+
+<br>
+
+<img src = "https://cmspro.h10hotels.com/ImagenesHotel/standard%20(1).jpg" width="100%">
+
+<br>
+
+ **MEETING FACILITIES**
+
+Following the request, we propose the following meeting rooms for Demant meetings:
+
+* **Plenary room** *Castilla A+B+C*  500m2 Capacity in cabaret style for 150pax. Features natural sunlight.
+
+<br>
+
+<img src = "H10 ANDALUCIA PLAZA/H10AP3.jpg" width="100%">
+
+
+* **Breakout room** They have different sized breakout rooms some with daylight
+
+<br>
+
+<img src = "H10 ANDALUCIA PLAZA/H10AP4.jpg" width="100%">
+
+<br>
+
+
+**WELCOME DINNER**
+
+The Hotel has different options for the welcome dinner.
+
+<img src = "H10 ANDALUCIA PLAZA/H10AP2.jpg" width="100%">
+
+<br>
+
+<img src ="https://r-cf.bstatic.com/images/hotel/max1024x768/935/93540020.jpg" width="100%">
+
+<br>
+
+<img src ="https://r-cf.bstatic.com/images/hotel/max1024x768/153/15324544.jpg" width="100%">
+
+
+
+
+## **BARCELONA AREA**  *(Tarragona)*
+
+<br>
+
+#### LE MERIDIEN RA BY MARRIOTT (Tarragona)
+
+<iframe src="HotelRA.html"  frameborder="0" width="100%" height="1700" scrolling="no"></iframe>
+
+<br>
+
+**RATES**
+
+    Accommodation from 10th to 14th May, 2020
+    > Double for single use: 185€ VAT inc
+  
+    Meeting rooms (rates per room and day) 
+    > Delegate Package (including plenary room rental, basic AV, business lunch and 2 coffee breaks) rates per pax: 115€ VAT inc
+    > breakout rooms (25- 40 pax) -  700€ VAT inc
+  
+    F&B services
+    > Welcome Buffet dinner including drinks from 80€ VAT inc
+    > Grill setup in exclusive for the group: 2500€
+
+
+ **DEMANT GROUP ACCOMMODATION**
+
+We will have 125 deluxe rooms, these rooms have about 30 m2, with views od Mediterranean sea or gardens. The spacious rooms are stylishly decorated and have high ceilings, flat-screen TV’s and bathrobes. 
+The Ra Beach’s extensive spa offers hydrotherapy and sea water treatments, as well as massages.
+
+<img src = "https://cdn2.traveler.es/uploads/images/thumbs/es/trav/3/s/2018/34/le_meridien_9222_745x419.jpg" width="100%">
+
+<br>
+
+<img src = "https://www.lemeridienra.cat/resourcefiles/roomssmallimages/habitacio-deluxe.jpg" width="100%">
+
+<br>
+
+ **MEETING FACILITIES**
+
+Following the request, we propose the following meeting rooms for Demant meetings:
+
+* **Plenary room** *RA*  (282 square meters) and a capacity up to 500 people.Features natural sunlight and LED light.
+
+* **Breakout room** They have different sized breakout rooms some with daylight
+
+<br>
+
+<img src = "https://cache.marriott.com/marriottassets/marriott/REUMD/reumd-meetingroom-1590-hor-clsc.jpg?interpolation=progressive-bilinear&downsize=1180px:*" width="100%">
+
+<br>
+
+<img src = "https://cache.marriott.com/marriottassets/marriott/REUMD/reumd-ayu-meeting-6148-hor-clsc.jpg?interpolation=progressive-bilinear&downsize=1180px:*" width="100%">
+
+<br>
+
+**WELCOME DINNER**
+
+The idea would be to organize the welcome dinner on May 10th at the Beach Club that belongs to the hotel. Any type of dinner, buffet, barbacue, etc. Also decoration could be added, such as torchs, led lights, etc. Space needs to be rent.
+
+<img src ="https://www.thebeachclub.es/resourcefiles/mainimages/bufes-le-meridien-ra-beach-hotel-spa.jpg" width="100%">
+
+
+
+## **ALICANTE**  
+
+<br>
+
+###  Suggested Hotels {.tabset .tabset-fade .tabset-pills}
+
+#### ASIA GARDENS
+
+<iframe src="AsiaGardens/AsiaGardens.html"  frameborder="0" width="100%" height="1600" scrolling="no"></iframe>
+
+<br>
+
+
+**RATES**
+
+    Accommodation from 10th to 14th May, 2020
+    > Double for single use: 180€ VAT inc
+  
+    Meeting rooms (rates per room and day) - No AV included
+    > Plenary room - 1950€ VAT inc 
+    > breakout rooms (25- 40 pax) -  750€ VAT inc
+  
+    F&B services
+    > BBQ Buffet dinner including drinks from 85€ VAT inc
+    > Buffet lunch non alcoholic drinks included from 70€ VAT inc
+    
+
+
+**DEMANT GROUP ACCOMMODATION:**
+
+We will have 100 Deluxe Rooms, these rooms have 34m2 and a terrace of 8m2, with views of the botanical gardens, swimming pools and/or mountains. Equipped with the latest technology including a 43" Full HD LED TV. A king-size or twin beds, spacious bathrooms with japanese panels with double wash basins, separate bath and shower.
+
+<img  src = "https://www.asiagardens.es/res/uploads/20151204140233-01-habdeluxegaleria-1800x7003.jpg" width="100%"> 
+
+<hr>
+
+**MEETING FACILITIES:**
+
+Following the request,  we propose the following meeting rooms for Demant meetings:
+
+  * **Plenary room** Shanghai 4 + 5 (340m2) with natural light, up to 125pax in cabaret style
+  
+
+  * **Breakout room** They have different sized breakout rooms some with daylight
+
+<iframe src="AsiaGardens/AsiaGardenShanghai.html"  frameborder="0" width="100%" height="550" scrolling="no"></iframe>
+
+<hr>
+
+**WELCOME DINNER:**
+
+Asia Gardens is a big hotel so it has a lot of possibilities to organize meetings, work lunches and dinners in different spaces.
+We propose for the welcome dinner on May 10th, the Saigon Terrace where we can organize an informal dinner: Buffet or BBQ style.
+
+<img  src = "AsiaGardens/SALONES TERRAZA SAIGON 9 (1).jpg" width="100%"> 
+
+or  La Palapa restaurant located in the pool's area.  
+
+<iframe src="AsiaGardens/AsiaGardensTerraza.html"  frameborder="0" width="100%" height="600" scrolling="no"></iframe>
+
+
+#### SH VILLAGADEA
+
+<iframe src="sh villagadea/SHVillagadea.html"  frameborder="0" width="100%" height="1300" scrolling="no"></iframe>
+
+<br>
+
+
+**RATES**
+
+    Accommodation from 10th to 14th May, 2020
+    > Double for single use: 110€ VAT inc
+  
+    Meeting rooms (rates per room and day) - No AV included
+    > Plenary room - 1750€ VAT inc 
+    > breakout rooms (25- 40 pax) -  650€ VAT inc
+  
+    F&B services
+    > Buffet dinner including drinks from 77€ VAT inc
+    > Buffet lunch non alcoholic drinks included from 50€ VAT inc
+    > Coffee break from 12€
+
+
+
+**DEMANT GROUP ACCOMMODATION:**
+
+We will have 100 Standard Rooms. The standard rooms is an elegant 32m2 room (terrace included) with mediterranean style with a spacious bathroom.
+These rooms have views to the mountains or the gardens, not sea  views.
+
+<img  src = "https://q-cf.bstatic.com/images/hotel/max1024x768/204/204699154.jpg" width="100%"> 
+
+<hr>
+
+
+**MEETING FACILITIES:**
+
+Following the request, we propose the following meeting rooms for Demant meetings:
+
+<iframe src="sh villagadea/FotoPalapameeting.html"  frameborder="0" width="100%" height="550" scrolling="no"></iframe>
+  
+<iframe src="sh villagadea/FotoPalmeral.html"  frameborder="0" width="100%" height="550" scrolling="no"></iframe>
+
+<hr>
+
+**WELCOME DINNER:**
+
+The idea would be to organize the welcome dinner on June 14th near the pool, maybe a BBQ dinner, having as backup the Veranda restaurant.
+
+<img  src = "https://www.grupobambu.es/wp-content/uploads/2018/02/PORTADA-6.jpg" width="100%"> 
+
+<img  src = "https://www.hotel-villa-gadea.com/wp-content/blogs.dir/1587/files/landings/xveranda-7.jpg.pagespeed.ic.tNk9gpqOKz.webp" width="100%"> 
+
+<br>
+
+<hr>
+
+
+
+# TERMS AND CONDITIONS
+
+  * Rates valid for 2020
+  
+  * For a group of minimum 90pax.
+  
+  * Cutting Edge Events management fee including in the detailed rates
+  
+  * VAT included. 
+  
+  * No reservation has been done. Availability upon request.
+  
+*****
+
+
+
+
+
